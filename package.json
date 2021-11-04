@@ -1,0 +1,14 @@
+{
+  "name": "dracula-pink-dark-theme",
+  "version": "1.0",
+  "author": "Étienne Deparis",
+  "scripts": {
+    "dev": "web-ext run",
+    "build": "make build",
+    "sign": "make sign",
+    "lint": "web-ext lint --self-hosted -i webextension-polyfill"
+  },
+  "devDependencies": {
+    "web-ext": "^6.3"
+  }
+}
